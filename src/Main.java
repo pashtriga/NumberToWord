@@ -99,7 +99,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
+        System.out.print("Enter the value: ");
         double num = scan.nextDouble();
         int euro = (int) Math.floor(num);
         int cent = (int) Math.ceil((num - euro) * 100.0f);
